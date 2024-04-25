@@ -18,7 +18,7 @@ public class ForumController {
     private final CommentService commentService;
 
     public ForumController(PostService postService, CommentService commentService){
-        this.postService = postService;s
+        this.postService = postService;
         this.commentService = commentService;
     }
 
@@ -35,5 +35,10 @@ public class ForumController {
    @MutationMapping
     public Collection<Comment> createComment(@Argument String content, @Argument String postId) {
         return commentService.createComment(content, postId);
+    }
+
+    @SchemaMapping
+    public Collection<Comment> comments (Post post) {
+        return commentService.findByPost(post.id());
     }
 }

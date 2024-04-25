@@ -18,4 +18,8 @@ public class CommentService {
 
         return comments.values();
     }
+
+    public Collection<Comment> findByPost(String postId) {
+        return comments.values().stream().filter(comment -> comment.postId().equals(postId)).toList();
+    }
 }
