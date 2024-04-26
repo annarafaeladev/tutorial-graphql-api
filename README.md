@@ -23,15 +23,15 @@ A lógica consiste em criar posts em um forum, e relacionar comentário a ele. A
 Existe 3 endpoints
 * Criação de post
   
-![img.png](img.png)
+![img.png](assets/img.png)
   
 * Buscar post pelo id
 
-![img_1.png](img_1.png)
+![img_1.png](assets/img_1.png)
 
 * Criar comentário
 
-![img_2.png](img_2.png)
+![img_2.png](assets/img_2.png)
 
 * Carregar os comentario de cada post
   * foi criado um data loader para que isso seja realizado automatico no controller com o mesmo nome definido no schema ```comments```
@@ -41,6 +41,6 @@ Existe 3 endpoints
         return commentService.findByPost(post.id());
     }
   
-![img_3.png](img_3.png)
+![img_3.png](assets/img_3.png)
 
 
