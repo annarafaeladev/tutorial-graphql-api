@@ -1,5 +1,4 @@
-# <center> Tutorial Graphql Api
-#### <center> [![LinkedIn](https://img.shields.io/badge/-annarafaeladev-0077B5?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/annarafaeladev/)](https://www.linkedin.com/in/annarafaeladev/)
+# Tutorial Graphql Api [![LinkedIn](https://img.shields.io/badge/-annarafaeladev-0077B5?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/annarafaeladev/)](https://www.linkedin.com/in/annarafaeladev/)
 
 ## Start
 * git clone https://github.com/annarafaeladev/tutorial-graphql-api.git
